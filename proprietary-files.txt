@@ -194,15 +194,15 @@ vendor/bin/hw/motorola.hardware.camera.desktop@2.0-service
 vendor/bin/hw/motorola.hardware.camera.imgtuner@2.0-service
 vendor/etc/init/motorola.hardware.camera.desktop@2.0-service.rc
 vendor/etc/init/motorola.hardware.camera.imgtuner@2.0-service.rc
-vendor/lib/hw/motorola.hardware.camera.imgtuner@2.0-impl.so
+vendor/lib/hw/motorola.hardware.camera.imgtuner@2.0-impl.so;DISABLE_CHECKELF
 vendor/lib/motorola.hardware.camera.desktop@1.0.so
 vendor/lib/motorola.hardware.camera.desktop@2.0.so
-vendor/lib/motorola.hardware.camera.imgtuner@1.0.so
-vendor/lib/motorola.hardware.camera.imgtuner@2.0.so
+vendor/lib/motorola.hardware.camera.imgtuner@1.0.so;DISABLE_CHECKELF
+vendor/lib/motorola.hardware.camera.imgtuner@2.0.so;DISABLE_CHECKELF
 vendor/lib64/motorola.hardware.camera.desktop@1.0.so
 vendor/lib64/motorola.hardware.camera.desktop@2.0.so
-vendor/lib64/motorola.hardware.camera.imgtuner@1.0.so
-vendor/lib64/motorola.hardware.camera.imgtuner@2.0.so
+vendor/lib64/motorola.hardware.camera.imgtuner@1.0.so;DISABLE_CHECKELF
+vendor/lib64/motorola.hardware.camera.imgtuner@2.0.so;DISABLE_CHECKELF
 
 # Camera - Components
 vendor/lib/camera/components/com.arcsoft.node.mfnr.so
