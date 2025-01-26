@@ -31,7 +31,6 @@ system_ext/lib/vendor.qti.hardware.seccam@1.0.so
 system_ext/lib64/libarcsoft_calibverify_TriCamera.so
 system_ext/lib64/libarcsoft_tricam_calibration.so
 system_ext/lib64/libarcsoft_tricam_verification.so
-system_ext/lib64/motorola.hardware.camera.imgtuner@2.0.so
 system_ext/lib64/vendor.qti.hardware.seccam@1.0.so
 vendor/etc/camera/mot_engine_config.bin
 vendor/lib/camera/components/com.mot.node.hdr.so
@@ -60,7 +59,6 @@ vendor/lib/libarcsoft_low_light_shot.so
 vendor/lib/libbitmlengine.so
 vendor/lib/libbitmlenginev2.so
 vendor/lib/libBSTSWAD.so
-vendor/lib/libc2d_helper.so
 vendor/lib/libcamera_nn_stub.so
 vendor/lib/libcamerapostproc.so
 vendor/lib/libcamxexternalformatutils.so
@@ -100,15 +98,11 @@ vendor/lib/libofflinelog.so
 vendor/lib/libopencv.so
 vendor/lib/libopestriping.so
 vendor/lib/libremosaic_wrapper.so
-vendor/lib/libsensorslog.so
 vendor/lib/libsns_device_mode_stub.so
 vendor/lib/libsns_fastRPC_util.so
 vendor/lib/libsns_low_lat_stream_stub.so
-vendor/lib/libsnsapi.so
-vendor/lib/libsnsdiaglog.so
 vendor/lib/libswregistrationalgo.so
 vendor/lib/libundistort_impl.so
-vendor/lib/libvideooptfeature.so
 vendor/lib/libvideoutils.so
 vendor/lib/libvidhance.so
 vendor/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
@@ -180,16 +174,13 @@ vendor/lib64/libremosaic_wrapper.so
 vendor/lib64/libsns_device_mode_stub.so
 vendor/lib64/libsns_fastRPC_util.so
 vendor/lib64/libsns_low_lat_stream_stub.so
-vendor/lib64/libsnsdiaglog.so
 vendor/lib64/libswregistrationalgo.so
 vendor/lib64/libtfestriping.so
 vendor/lib64/libundistort_impl.so
-vendor/lib64/libvideooptfeature.so
 vendor/lib64/libvidhance.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
 # Camera - Motorola
-system_ext/lib/motorola.hardware.camera.imgtuner@2.0.so
 vendor/bin/hw/motorola.hardware.camera.desktop@2.0-service
 vendor/bin/hw/motorola.hardware.camera.imgtuner@2.0-service
 vendor/etc/init/motorola.hardware.camera.desktop@2.0-service.rc
