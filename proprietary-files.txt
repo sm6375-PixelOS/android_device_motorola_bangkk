@@ -42,7 +42,7 @@ vendor/lib/camera/fdconfigvideolite.bin
 vendor/lib/camera/com.qti.flash.aw36514.so
 vendor/lib/camera/com.qti.flash.ocp81373.so
 vendor/lib/com.qti.chiusecaseselector.so
-vendor/lib/hw/camera.qcom.so
+vendor/lib/hw/camera.qcom.so;DISABLE_CHECKELF
 vendor/lib/hw/com.qti.chi.override.so
 vendor/lib/com.qti.settings.mannar.so
 vendor/lib/com.qti.stats.common.so
@@ -58,7 +58,7 @@ vendor/lib/libarcsoft_high_dynamic_range.so
 vendor/lib/libarcsoft_low_light_shot.so
 vendor/lib/libbitmlengine.so
 vendor/lib/libbitmlenginev2.so
-vendor/lib/libBSTSWAD.so
+vendor/lib/libBSTSWAD.so;DISABLE_CHECKELF
 vendor/lib/libcamera_nn_stub.so
 vendor/lib/libcamerapostproc.so
 vendor/lib/libcamxexternalformatutils.so
@@ -80,8 +80,8 @@ vendor/lib/libjpege.so
 vendor/lib/liblowlight_ai_portrait.arcsoft.so
 vendor/lib/libmmcamera_bestats.so
 vendor/lib/libmmcamera_cac3.so
-vendor/lib/libmmcamera_faceproc.so
-vendor/lib/libmmcamera_faceproc2.so
+vendor/lib/libmmcamera_faceproc.so;DISABLE_CHECKELF
+vendor/lib/libmmcamera_faceproc2.so;DISABLE_CHECKELF
 vendor/lib/libmmcamera_lscv35.so
 vendor/lib/libmmcamera_mfnr.so
 vendor/lib/libmmcamera_mfnr_t4.so
@@ -115,9 +115,9 @@ vendor/lib64/com.qualcomm.mcx.distortionmapper.so
 vendor/lib64/com.qualcomm.mcx.linearmapper.so
 vendor/lib64/com.qualcomm.mcx.policy.mfl.so
 vendor/lib64/com.qualcomm.qti.mcx.usecase.extension.so
-vendor/lib64/hw/camera.qcom.so
+vendor/lib64/hw/camera.qcom.so;DISABLE_CHECKELF
 vendor/lib64/hw/com.qti.chi.override.so
-vendor/lib64/hw/motorola.hardware.camera.imgtuner@2.0-impl.so
+vendor/lib64/hw/motorola.hardware.camera.imgtuner@2.0-impl.so;DISABLE_CHECKELF
 vendor/lib64/libBSTSWAD.so
 vendor/lib64/libarcsoft_chi_utils.so
 vendor/lib64/libarcsoft_hdr_detection.so
@@ -150,8 +150,8 @@ vendor/lib64/libmot_chi_desktop_helper.so
 vendor/lib64/libmot_engine_settings.so
 vendor/lib64/libmmcamera_bestats.so
 vendor/lib64/libmmcamera_cac3.so
-vendor/lib64/libmmcamera_faceproc.so
-vendor/lib64/libmmcamera_faceproc2.so
+vendor/lib64/libmmcamera_faceproc.so;DISABLE_CHECKELF
+vendor/lib64/libmmcamera_faceproc2.so;DISABLE_CHECKELF
 vendor/lib64/libmmcamera_lscv35.so
 vendor/lib64/libmmcamera_mfnr.so
 vendor/lib64/libmmcamera_mfnr_t4.so
@@ -185,7 +185,7 @@ vendor/lib64/motorola.hardware.camera.imgtuner@2.0.so;DISABLE_CHECKELF
 
 # Camera - Components
 vendor/lib/camera/components/com.arcsoft.node.mfnr.so
-vendor/lib/camera/components/com.mot.node.c2d.so
+vendor/lib/camera/components/com.mot.node.c2d.so;DISABLE_CHECKELF
 vendor/lib/camera/components/com.mot.node.dc_capture.so
 vendor/lib/camera/components/com.mot.node.dc_preview.so
 vendor/lib/camera/components/com.qti.camx.chiiqutils.so
@@ -235,8 +235,8 @@ vendor/lib/camera/components/com.qtistatic.stats.aec.so
 vendor/lib/camera/components/com.qtistatic.stats.af.so
 vendor/lib/camera/components/com.qtistatic.stats.awb.so
 vendor/lib/camera/components/com.qtistatic.stats.pdlib.so
-vendor/lib/camera/components/com.vidhance.node.ica.so
-vendor/lib/camera/components/com.vidhance.node.processing.so
+vendor/lib/camera/components/com.vidhance.node.ica.so;DISABLE_CHECKELF
+vendor/lib/camera/components/com.vidhance.node.processing.so;DISABLE_CHECKELF
 vendor/lib64/camera/components/com.arcsoft.node.mfnr.so
 vendor/lib64/camera/components/com.arcsoft.node.supernightraw.so
 vendor/lib64/camera/components/com.mot.node.c2d.so
@@ -289,8 +289,8 @@ vendor/lib64/camera/components/com.qtistatic.stats.aec.so
 vendor/lib64/camera/components/com.qtistatic.stats.af.so
 vendor/lib64/camera/components/com.qtistatic.stats.awb.so
 vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so
-vendor/lib64/camera/components/com.vidhance.node.ica.so
-vendor/lib64/camera/components/com.vidhance.node.processing.so
+vendor/lib64/camera/components/com.vidhance.node.ica.so;DISABLE_CHECKELF
+vendor/lib64/camera/components/com.vidhance.node.processing.so;DISABLE_CHECKELF
 vendor/lib64/camera/components/libdepthmapwrapper_secure.so
 
 # Camera - feature2
@@ -397,7 +397,7 @@ product/etc/permissions/privapp-permissions-com.google.android.euicc.xml
 product/priv-app/EuiccGoogle/EuiccGoogle.apk
 
 # Fingerprint
-vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets;DISABLE_CHECKELF
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets.rc
 vendor/lib64/libRbsFlow.so
 vendor/lib64/libets_teeclient_v3.so
@@ -463,7 +463,7 @@ vendor/etc/vhw.xml
 
 # Sensors
 vendor/lib64/sensors.moto.so
-vendor/lib64/sensors.ssc.so
+vendor/lib64/sensors.ssc.so;DISABLE_CHECKELF
 
 # Sensors Configs
 vendor/bin/capsense_reset
