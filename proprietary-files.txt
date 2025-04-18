@@ -602,8 +602,4 @@ vendor/etc/sensors/proto/tcs3708.proto
 vendor/etc/sensors/sns_reg_config
 
 # Thermal configs
-vendor/etc/thermal-engine-bangkk-camera.conf
-vendor/etc/thermal-engine-bangkk-game-normal.conf
-vendor/etc/thermal-engine-bangkk-game-perf.conf
-vendor/etc/thermal-engine-bangkk.conf
 vendor/etc/thermal-engine.conf
