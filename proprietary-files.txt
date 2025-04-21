@@ -35,10 +35,6 @@ system_ext/lib64/vendor.qti.hardware.seccam@1.0.so
 vendor/etc/camera/mot_engine_config.bin
 vendor/lib/camera/components/com.mot.node.hdr.so
 vendor/lib/camera/components/com.mot.node.scene_detect.so
-vendor/lib/camera/fdconfigpreview.bin
-vendor/lib/camera/fdconfigpreviewlite.bin
-vendor/lib/camera/fdconfigvideo.bin
-vendor/lib/camera/fdconfigvideolite.bin
 vendor/lib/camera/com.qti.flash.aw36514.so
 vendor/lib/camera/com.qti.flash.ocp81373.so
 vendor/lib/com.qti.chiusecaseselector.so
@@ -354,10 +350,6 @@ vendor/lib64/camera/com.mot.eeprom.mot_gt24p64b_ov16a1q_eeprom.so
 vendor/lib/camera/com.qti.sensor.mot_ov16a1q.so
 vendor/lib/camera/com.qti.sensor.mot_s5k4h7.so
 vendor/lib/camera/com.qti.sensor.mot_s5kgn9.so
-vendor/lib/camera/com.qti.sensormodule.mot_bangkk_ov16a1q_ofilm.bin
-vendor/lib/camera/com.qti.sensormodule.mot_bangkk_s5k4h7_qtech.bin
-vendor/lib/camera/com.qti.sensormodule.mot_bangkk_s5kgn9_ak7377.bin
-vendor/lib/camera/com.qti.sensormodule.mot_bangkk_s5kgn9_ofilm.bin
 vendor/lib64/camera/com.qti.sensor.mot_ov16a1q.so
 vendor/lib64/camera/com.qti.sensor.mot_s5k4h7.so
 vendor/lib64/camera/com.qti.sensor.mot_s5kgn9.so
@@ -367,15 +359,6 @@ vendor/lib64/camera/com.qti.sensormodule.mot_bangkk_s5kgn9_ak7377.bin
 vendor/lib64/camera/com.qti.sensormodule.mot_bangkk_s5kgn9_ofilm.bin
 
 # Camera - tuned
-vendor/lib/camera/com.qti.tuned.default.bin
-vendor/lib/camera/com.qti.tuned.mot_bangkk_ov16a1q.bin
-vendor/lib/camera/com.qti.tuned.mot_bangkk_ov16a1q_india.bin
-vendor/lib/camera/com.qti.tuned.mot_bangkk_s5k4h7af.bin
-vendor/lib/camera/com.qti.tuned.mot_bangkk_s5k4h7af_india.bin
-vendor/lib/camera/com.qti.tuned.mot_bangkk_s5kgn9.bin
-vendor/lib/camera/com.qti.tuned.mot_bangkk_s5kgn9_ak7377.bin
-vendor/lib/camera/com.qti.tuned.mot_bangkk_s5kgn9_ak7377_india.bin
-vendor/lib/camera/com.qti.tuned.mot_bangkk_s5kgn9_india.bin
 vendor/lib64/camera/com.qti.tuned.default.bin
 vendor/lib64/camera/com.qti.tuned.mot_bangkk_ov16a1q.bin
 vendor/lib64/camera/com.qti.tuned.mot_bangkk_ov16a1q_india.bin
