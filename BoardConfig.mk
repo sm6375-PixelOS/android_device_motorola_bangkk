@@ -52,4 +52,4 @@ TARGET_RECOVERY_UI_MARGIN_HEIGHT := 90
 VENDOR_SECURITY_PATCH := 2024-12-01
 
 # inherit from the proprietary version
-include vendor/motorola/bangkk/BoardConfigVendor.mk
+-include vendor/motorola/bangkk/BoardConfigVendor.mk
